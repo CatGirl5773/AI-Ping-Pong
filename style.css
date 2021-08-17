@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.heading {
+    margin-top: 0px;
+    width: 100%;
+    font-size: 30px;
+    text-align: left;
+}
+
+#instruct {
+    font-size: 18px;
+    float: right;
+    border: 1px solid white;
+}
+
+#start,
+#status {
+    font-size: 22px;
+}
