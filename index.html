@@ -22,7 +22,40 @@
         <br> <br>
         <h3 id="status" class="btn btn-warning"></h3>
         <br> <br>
+        <button id="restart" onclick="restart()" class="btn btn-danger"> Restart </button>
+        <hr>
         <div id="canvas"></div>
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button class="close" data-dismiss="modal"> &times; </button>
+                        <h4> Instructions </h4>
+                    </div>
+                    <div class="modal-body">
+                        <h4 class="instruct">
+                            <img src="score.jpg" class="instruction-image">
+                            <br> <br>
+                            To play, hit the ball using the paddle. Control the paddle with your wrist.
+                        </h4>
+                        <h4 class="instruct">
+                            <img src="up.jfif" class="instruction-image">
+                            <br> <br>
+                            To move the paddle up, move your left wrist in the upward direction.
+                        </h4>
+                        <h4 class="instruct">
+                            <img src="down.png" class="instruction-image">
+                            <br> <br>
+                            To move the paddle down, move your left wrist in the downward direction.
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h4 class="sticky-footer">
+            Creator - Esther J. Choi
+        </h4>
+        <br>
         <script src="main.js"></script>
     </body>
 </html>
