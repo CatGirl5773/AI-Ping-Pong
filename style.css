@@ -17,6 +17,32 @@ body {
 }
 
 #start,
-#status {
+#status,
+#restart {
     font-size: 22px;
+}
+
+hr {
+    color: grey;
+    border-color: grey;
+}
+
+.modal-dialog {
+    width: 90%;
+}
+
+.instruct {
+    display: inline-block;
+    margin: 20px;
+}
+
+.instruction-image {
+    height: 400px;
+}
+
+.sticky-footer {
+    position: sticky;
+    bottom: 0px;
+    line-height: 3;
+    background-color: seashell;
 }
