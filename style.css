@@ -46,3 +46,22 @@ hr {
     line-height: 3;
     background-color: seashell;
 }
+
+canvas {
+    border: 5px solid grey;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px silver;
+    animation: border 2s infinite alternate;
+}
+
+@keyframes border {
+    from {
+        box-shadow: 5px 5px 5px silver;
+        border: 5px solid grey;
+    }
+
+    to {
+        box-shadow: 5px 5px 5px gainsboro;
+        border: 5px solid silver;
+    }
+}
