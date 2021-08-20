@@ -1,5 +1,6 @@
 rightWristX = "";
 rightWristY = "";
+rightWristScore = "";
 
 var paddle2 =10,paddle1=10;
 
@@ -88,7 +89,7 @@ function draw(){
     if(rightWristScore > 0.2) {
       fill('#FF0000');
       stroke('#FF0000');
-      circle(rightWristX, rightWristY, 30);
+      circle(rightWristX, rightWristY, 20);
     }
 }
 
