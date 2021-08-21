@@ -1,6 +1,7 @@
 rightWristX = "";
 rightWristY = "";
 rightWristScore = "";
+game_status = "";
 
 var paddle2 =10,paddle1=10;
 
@@ -45,8 +46,8 @@ function gotPoses(results) {
 }
 
 function draw(){
-
- background(0); 
+  if(game_status == "start") {
+    background(0); 
 
  fill("black");
  stroke("black");
@@ -91,8 +92,13 @@ function draw(){
       stroke('#FF0000');
       circle(rightWristX, rightWristY, 20);
     }
+  }
 }
 
+function startGame() {
+    game_status = "start";
+    document.getElementById("status").innerHTML = "Game is Loaded";
+}
 
 
 //function reset when ball does notcame in the contact of padde
